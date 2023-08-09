@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Antiquarius"; /* This can be any name you choose */
+    src: url("rock-paper-scissors\static\font\Antiquarius.ttf") format("truetype");
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title>.main>h1
+.title>h2{
+    font-family: "Antiquarius", sans-serif;
+}
+
+h2{
+    margin-top: 0;
+}
+
+.button-layout{
+    display: flex;
+    margin: 10px;
+    background-color: whitesmoke;
+    justify-content: space-around;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+
+i{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+#play-button{
+    display: flex;
+    justify-content: center;
+}
+
+.replay-button{
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td{
+    width:40%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.scoreline{
+    display: flex;
+    justify-content: center;
+}
+
+td{
+    text-align: center;
+}
+
+
+.win, .lose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.retry{
+    align-self: center;
+}
+
+.disabled{
+    pointer-events: none;
+}
+
+.hidden{
+    display: none;
+}
